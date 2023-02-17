@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sidebar</title>
-    <link rel="stylesheet" href="css/default.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 <body>
     <div class="container">
@@ -15,14 +15,15 @@
                     <div>
                         <img class="logo" src="./images/images/logo.svg" />
                     </div>
-                    <div>
+                    <div id="dropdown">
                         <img class="menudropdown" src="./images/images/menu.svg" />
                     </div>
                 </div>
 
                 <div class="sidecolumn">
-                    <div class="sidesearch">
-                        <input class="sidebuscar" type="search" placeholder="Buscar" />
+                    <div class="containersearch">
+                        <div class="search-icon"></div>
+                        <input class="search" type="search" placeholder="Buscar" />
                     </div>
                     <ul class="sidelist">
                         <div class="hover">
@@ -75,6 +76,6 @@
             </div>
         </div>
     </div>
-    <script src="/js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

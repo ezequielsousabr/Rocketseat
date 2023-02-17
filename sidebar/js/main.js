@@ -1,3 +1,7 @@
 const documento = document.getElementsByClassName('dashboardgrid');
+const dropdown  = document.getElementById('dropdown');
+const menuList  = document.querySelectorAll('li');
 
-console.log(documento)
+function SideDropdown(e){console.log(e)}
+
+dropdown.addEventListener('click', SideDropdown);
