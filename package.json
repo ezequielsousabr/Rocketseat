@@ -1,0 +1,19 @@
+{
+  "name": "rocketseat",
+  "version": "1.0.0",
+  "description": "Projetos educacionais Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezequielsousabr/Rocketseat.git"
+  },
+  "author": "Ezequiel L Sousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezequielsousabr/Rocketseat/issues"
+  },
+  "homepage": "https://github.com/ezequielsousabr/Rocketseat#readme"
+}
